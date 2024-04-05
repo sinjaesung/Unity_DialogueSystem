@@ -49,7 +49,7 @@ public class DialogSystem : MonoBehaviour
             {
                 isTypingEffect = false;
 
-                //타이핑효과 중지하고,현재 대사 전체 출력
+                //타이핑효과 중지하고,현재 대사 전체 출력 github변경 테스트
                 StopCoroutine("OnTypingText");
                 speakers[currentSpeakerIndex].textDialogue.text = dialogs[currentDialogIndex].dialogue;
                 //대사가 완료되었을때 출력되는 커서활성화
